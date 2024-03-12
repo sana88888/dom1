@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vente de parfums</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenue dans notre boutique de parfums</h1>
+  </header>
+
+  <div id="store">
+    <div class="item" data-name="Parfum 1" data-price="50.00">
+      <img src="https://drest.s3.eu-west-3.amazonaws.com/wp-content/uploads/2023/11/10193556/yves-saint-laurent-ladies-libre-collector-edition-2021-edp-spray-17-oz-fragrances-3614273445665.jpg" alt="">
+      <span class="item-name">LIBRE</span>
+      <div class="controls">
+        <button class="btn-remove">-</button>
+        <span class="quantity">1</span>
+        <button class="btn-add">+</button>
+      </div>
+      <button class="btn-like">❤️</button>
+      <span class="price">110€</span>
+    </div>
+    <div class="item" data-name="Parfum 2" data-price="60.00">
+      <img src="https://monrituel.ma/wp-content/uploads/2023/02/2749.jpg" alt="">
+      <span class="item-name">SI PASSIONNE</span>
+      <div class="controls">
+        <button class="btn-remove">-</button>
+        <span class="quantity">1</span>
+        <button class="btn-add">+</button>
+      </div>
+      <button class="btn-like">❤️</button>
+      <span class="price">81.50€</span>
+    </div>
+  </div>
+  
+  <div id="cart">
+    <h2>Votre panier</h2>
+    <div id="cart-items"></div>
+    <div id="total">Total: €0.00</div>
+    <button id="clear-cart">Vider le panier</button>
+  </div>
+
+  <footer>
+    <p>Merci d'avoir visité notre boutique de parfums</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
